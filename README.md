@@ -33,4 +33,10 @@
 <p> Permite que um objeto altere seu comportamento quando seu estado interno muda. </p>
 
 <h1> B) Melhorias ao Pseudocódigo: </h1>
-<p> O código pode ser melhorado utilizando o padrão criacional Factory, que foi explicado anteriormente, para evitar a dependência direta de múltiplas fábricas (como Factory_A e Factory_B) no código principal. O objetivo seria centralizar a lógica de criação em uma interface comum, e permitir que subclasses decidam qual botão criar, simplificando o código. Para isso, podemos criar uma interface comum para os botões (IButton), e depois uma interface comum para construir botões (IButtonFactory) </p>
+<p> O código pode ser melhorado utilizando o padrão criacional Factory, que foi explicado anteriormente, para evitar a dependência direta de múltiplas fábricas (como Factory_A e Factory_B) no código principal. O objetivo seria centralizar a lógica de criação em uma interface comum, e permitir que subclasses decidam qual botão criar, simplificando o código. Para isso, podemos criar uma interface comum para os botões (IButton), e depois uma interface comum para construir botões (IButtonFactory). A partir disso, podemos criar fábricas específicas para cada sistema operacional, com cada uma criando uma instância do botão correspondente. Teríamos algo como: </p>
+
+![image](https://github.com/user-attachments/assets/889ff2dd-ade2-40dc-9092-86a60f771408)
+
+<p> Assim, podemos modificar a classe Site para depender apenas da interface da fábrica, sem a necessidade de verificar o tipo de sistema operacional diretamente. Utilizando a ferramente PLantUML, é possível realizar o seguinte digrama de classes: </p>
+
+![image](https://github.com/user-attachments/assets/3d83ed03-f01d-4fda-b5c9-18e4399dd8d7)
