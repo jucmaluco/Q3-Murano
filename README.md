@@ -37,6 +37,6 @@
 
 ![image](https://github.com/user-attachments/assets/889ff2dd-ade2-40dc-9092-86a60f771408)
 
-<p> Assim, podemos modificar a classe Site para depender apenas da interface da fábrica, sem a necessidade de verificar o tipo de sistema operacional diretamente. Utilizando a ferramente PLantUML, é possível realizar o seguinte digrama de classes: </p>
+<p> Assim, podemos modificar a classe Site para depender apenas da interface da fábrica, sem a necessidade de verificar o tipo de sistema operacional diretamente. Utilizando a ferramenta PLantUML, é possível realizar o seguinte digrama de classes: </p>
 
 ![image](https://github.com/user-attachments/assets/3d83ed03-f01d-4fda-b5c9-18e4399dd8d7)
