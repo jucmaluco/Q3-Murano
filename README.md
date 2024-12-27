@@ -31,3 +31,6 @@
 <p> Permite que uma família de algoritmos seja definida, encapsulada e intercambiável. </p>
 <h3> 3.3. State </h3>
 <p> Permite que um objeto altere seu comportamento quando seu estado interno muda. </p>
+
+<h1> B) Melhorias ao Pseudocódigo: </h1>
+<p> O código pode ser melhorado utilizando o padrão criacional Factory, que foi explicado anteriormente, para evitar a dependência direta de múltiplas fábricas (como Factory_A e Factory_B) no código principal. O objetivo seria centralizar a lógica de criação em uma interface comum, e permitir que subclasses decidam qual botão criar, simplificando o código. Para isso, podemos criar uma interface comum para os botões (IButton), e depois uma interface comum para construir botões (IButtonFactory) </p>
