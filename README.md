@@ -40,3 +40,10 @@
 <p> Assim, podemos modificar a classe Site para depender apenas da interface da fábrica, sem a necessidade de verificar o tipo de sistema operacional diretamente. Utilizando a ferramenta PLantUML, é possível realizar o seguinte digrama de classes: </p>
 
 ![image](https://github.com/user-attachments/assets/3d83ed03-f01d-4fda-b5c9-18e4399dd8d7)
+
+<h1> C) Caso da Classe Database: </h1>
+<p> Para construir a classe Database apresentada, o padrão Singleton seria adequado. Como explicado no tópico 1.1, tal padrão criacional permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância. </p>
+
+<h1> Fontes utilizadas: </h1>
+<p> Para pesquisa na resolução dessa questão, o site refactoring.guru foi utillizado, além do vídeo  "10 Design Patterns Explained in 10 Minutes", do canal do YouTube Fireship. </p>
+
