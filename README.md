@@ -42,7 +42,10 @@
 ![image](https://github.com/user-attachments/assets/3d83ed03-f01d-4fda-b5c9-18e4399dd8d7)
 
 <h1> C) Caso da Classe Database: </h1>
-<p> Para construir a classe Database apresentada, o padrão Singleton seria adequado. Como explicado no tópico 1.1, tal padrão criacional permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância. </p>
+<p> Para construir a classe Database apresentada, o padrão Singleton seria adequado. Como explicado no tópico 1.1, tal padrão criacional permite a você garantir que uma classe tenha apenas uma instância, enquanto fornece um ponto de acesso global para essa instância. </p>
+<p> O pseudocódigo para a implementação de tal padrão na Database levando em consideração que apenas seja possível criar uma instância desse objeto seria: </p>
+
+![image](https://github.com/user-attachments/assets/0c059d3d-a04f-42f7-9d38-311f41fc53d0)
 
 <h1> Fontes utilizadas: </h1>
 <p> Para pesquisa na resolução dessa questão, o site refactoring.guru foi utillizado, além do vídeo  "10 Design Patterns Explained in 10 Minutes", do canal do YouTube Fireship. </p>
